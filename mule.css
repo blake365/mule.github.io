@@ -11,3 +11,8 @@ cite {
 .logo {
     margin-bottom: -30px;
 }
+
+h2.border-bottom {
+    border-width: 4px !important;
+    /* margin-top: 5px; */
+}
