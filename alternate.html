@@ -30,11 +30,11 @@
                     <a href="#Top" class="nav-link">Home</a>
                 </li> -->
                 <li class="nav-item">
-                    <a href="#whatWeDo" class="nav-link">What We Do</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a href="alternate.html" class="nav-link">New Site Design</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a href="#projectsCollapser" class="nav-link">Projects</a>
                 </li>
@@ -51,38 +51,39 @@
 
     <!-- content -->
     <section id="Top" class="pt-5">
+        <!-- new top layout: Logo & contact in thinner row, large image with "what we do" below -->
+        <span class="w-100 d-block pt-5 mt-n5" id="contact"></span>
         <!-- logo -->
-        <div class="row justify-content-center logo">
-            <div class="mt-1">
-                <img class="img-fluid" src="imgs/logo.png">
+        <div class="row justify-content-center align-items-center pt-1 mb-n4">
+            <div class="col-12 col-sm-6 col-lg-7 col-xl-6">
+                <img class="img-fluid d-none d-lg-block mx-auto" src="imgs/logo.png">
+                <img class="img-fluid d-block d-lg-none mx-auto" src="imgs/logosmall.png">
             </div>
-        </div>
-        <!-- What We Do -->
-        <div id="whatWeDo" class="row justify-content-center align-items-center pt-5 mt-1">
-            <div class="col-lg-5 col-xl-5 col-10 content text-left order-2 order-lg-1 p-3 lead">
-                <p class="pt-lg-1">
-                    We are a custom woodwork and fabrication shop. The bulk of our work is residential furniture and commercial build-outs. We build freestanding pieces and built-in work, such as shelving and cabinetry. We work with designers, project managers, and architects,
-                    as well as directly with residential clients. All of our projects include basic 3D modeling, in house finishing, and delivery.
-                </p>
-                <!-- <p class="row justify-content-around mx-1"><i class="fas fa-drafting-compass">  Design </i><i class="fas fa-tools">  Build </i><i class="fas fa-hard-hat">  Install </i></p> -->
-                <p>
-                    All of our projects start with a phone call or an email, so please don't hesitate to reach out. We do this because we love the process. Even if you don't know exactly what you're looking for, we are more than happy to work with you to create something
-                    that you truly adore.
-                </p>
-                <div class="row text-left">
-                    <cite class="ml-3 mb-2" title="Author">Christopher Hawley</cite>
-                    <p class="col-11">
-                        <a class="btn btn-outline-success my-1 btn-lg p-2 mr-2" href="tel:205 568 2603">205-568-2603</a>
-                        <a class="btn btn-outline-primary my-1 btn-lg p-2" href="mailto:chris@mule-studio.com">chris@mule-studio.com</a>
-                        <!-- <button class="btn btn-outline-warning m-1 btn-lg"><i class="fab fa-instagram fa-2x"></i></button> -->
-                    </p>
-
+            <!-- <div class="col-1 d-sm-none mx-auto">
+                <h4 class="border-left border-success">Custom Woodwork and Fabrication</h4>
+                <div class="">
+                    <h5 class="border-left border-secondary">Residential Furniture</h5>
+                    <h5 class="border-left border-secondary">Commercial Build-outs</h5>
+                </div>
+            </div> -->
+            <div class="col-12 col-sm-6 col-lg-4 col-xl-4">
+                <div class="card mx-auto" style="width: 90%;">
+                    <div class="card-body">
+                        <h4 class="card-title">Contact Us</h4>
+                        <p class="card-text">All of our projects start with a phone call or an email, so please don't hesitate to reach out. We do this because we love the process. Even if you don't know exactly what you're looking for, we are more than happy to work with
+                            you to create something that you truly adore.
+                            <h5 class="card-subtitle mb-2 text-muted">Chris Hawley</h5>
+                            <a href="tel:205 568 2603" class="card-link">205-568-2603</a><br>
+                            <a href="mailto:chris@mule-studio.com" class="card-link">chris@mule-studio.com</a> <br> 123 somewhere street, Austin, TX
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-5 col-xl-4 col-11 order-1 order-lg-2">
-                <img class="row d-none d-md-block justify-content-center img-fluid border mx-auto shadow-sm" src="imgs/hinges.jpeg">
-            </div>
         </div>
+        <!-- <div class="col-lg-5 col-xl-4 col-11 order-1 order-lg-2">
+            <img class="row d-none d-md-block justify-content-center img-fluid border mx-auto shadow-sm" src="imgs/bar.jpg">
+        </div> -->
+
         <!-- Recent Projects Grid-->
         <!-- find it in index.html -->
 
@@ -93,8 +94,8 @@
                     <div class="card-header" id="headingOne">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-center btn-lg" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Home Furnishings <span class="badge badge-secondary ml-1 p-2 float-right">6</span>
-                            </button>
+                                Residential Furniture <span class="badge badge-secondary ml-1 p-2 float-right">6</span>
+        </button>
                         </h2>
                     </div>
 
@@ -192,7 +193,7 @@
                     <div class="card-header" id="headingTwo">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-center collapsed btn-lg" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Commercial Installations <span class="badge badge-secondary ml-1 p-2 float-right">3</span>
+                        Commercial Build-outs <span class="badge badge-secondary ml-1 p-2 float-right">3</span>
                         </button>
                         </h2>
                     </div>
